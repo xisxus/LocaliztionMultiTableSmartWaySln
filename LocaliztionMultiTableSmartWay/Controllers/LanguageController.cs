@@ -176,7 +176,7 @@ namespace LocaliztionMultiTableSmartWay.Controllers
                 }
             }
 
-            return RedirectToAction("TranslateToMultipleInd", "Langauge");
+            return RedirectToAction("Index", "Langauge");
         }
 
         public IActionResult ChangeLanguage(string languageCode)
